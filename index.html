@@ -1,0 +1,53 @@
+---
+---
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>{{ site.siteTitle }}</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="description" content="{{ site.siteDescription }}" />
+        <meta name="keywords" content="" />
+        <script src="js/jquery.min.js"></script>
+        <script src="js/skel.min.js"></script>
+        <script src="js/init.js"></script>
+        <script src="js/zoom.min.js"></script>
+        <script src="js/transition.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/style-xlarge.css" />
+        <link rel="stylesheet" type="text/css" href="css/zoom.css" />
+        <style>
+            .avatar{
+                background-image: url('{{ site.avatar }}');
+            }
+            body.landing #bg {
+                background-image: url("{{ site.background }}");
+            }
+
+            body.landing.is-touch {
+                background-image: url("{{ site.background }}");
+            }
+        </style>
+    </head>
+    <body class="landing">
+        <div id="wrapper">
+            <header id="header">
+                <div class="avatar"></div>
+                <p>{{ site.description }}</p>
+            </header>
+            <ul class="icons">
+                {% for icon in site.icons %}
+                    <li><a href="{{ icon.link }}" class="icon icon-{{ icon.icon }}"></a></li>
+                {% endfor %}
+            </ul>
+            <hr />
+            <ul class="links">
+                {% for project in site.projects %}
+                    <li><a href="{{ project.link }}">{{ project.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        <footer id="footer"></footer>
+        <div id="bg"></div>
+    </body>
+</html>

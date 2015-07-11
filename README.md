@@ -1,14 +1,14 @@
-JSON Configurable Personal Site
+Jekyll Configurable Personal Site
 ======================
 
 ## Running
 ```
-git clone https://github.com/christophior/JSONConfigurablePersonalSite.git
+git clone https://github.com/DDuarte/JekyllConfigurablePersonalSite.git
 cd JSONConfigurablePersonalSite
-npm install
-npm start
+bundle install
+bundle exec jekyll serve
 ```
-the application will be running on http://localhost:8080
+the application will be running on http://localhost:4000
 
 ## Configuring your own site
 To configure your own website after cloning this repo you will only need to work with these two files:

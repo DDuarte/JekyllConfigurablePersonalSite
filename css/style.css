@@ -73,7 +73,6 @@ p {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    background: url('/avatar');
     background-size: cover;
     position: relative;
     margin-bottom: 8px;
@@ -799,7 +798,6 @@ body.landing #bg {
     -o-animation-fill-mode: forwards;
     -ms-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
-    background-image: url("/background");
     background-repeat: no-repeat;
     background-size: cover;
     height: calc(100% + 20px);
@@ -811,7 +809,6 @@ body.landing #bg {
 }
 
 body.landing.is-touch {
-    background-image: url("/background");
     background-size: cover;
     background-repeat: no-repeat;
 }
