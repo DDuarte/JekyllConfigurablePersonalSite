@@ -1,7 +1,7 @@
 Jekyll Configurable Personal Site
 ======================
 
-[![Build Status](https://travis-ci.org/DDuarte/JekyllConfigurablePersonalSite.svg?branch=g-pages)](https://travis-ci.org/DDuarte/JekyllConfigurablePersonalSite)
+[![Build Status](https://travis-ci.org/DDuarte/JekyllConfigurablePersonalSite.svg?branch=gh-pages)](https://travis-ci.org/DDuarte/JekyllConfigurablePersonalSite)
 
 ## Running
 ```bash
