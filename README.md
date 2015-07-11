@@ -89,7 +89,9 @@ You can also go to */img* and replace the *avatar.jpg* and *background.jpg* file
 ## Contribute
 Have an idea to make this app better? Fork this repo and play around with it, make it better and if you think you have something worth sharing make a pull request. 
 
+
 ---
 
-This project is based on [JSONConfigurablePersonalSite](https://github.com/christophior/JSONConfigurablePersonalSite "JSONConfigurablePersonalSite") written by @christophior which has been adapted to Jekyll.
+
+This project is based on [JSONConfigurablePersonalSite](https://github.com/christophior/JSONConfigurablePersonalSite "JSONConfigurablePersonalSite") written by [@christophior](https://github.com/christophior "Chris Villarreal") which has been adapted to Jekyll.
 The original project uses Node.js, Dust.js and .json files to configure it.
