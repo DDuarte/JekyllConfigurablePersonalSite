@@ -12,16 +12,16 @@ resumeFile: https://dl.dropboxusercontent.com/u/3848960/corgi.pdf
 
 icons:
   - icon: page
-    link: "/resume"
+    link: resume.html
   - icon: social-github
-    link: "/github"
+    link: http://www.github.com/DDuarte
   - icon: social-twitter
-    link: "/twitter"
+    link: https://twitter.com/OhMyCorgi
   - icon: paw
-    link: "/corgi"
+    link: http://lmgtfy.com/?q=corgi
   - icon: social-reddit
     link: https://www.reddit.com/r/corgi
-    
+
 projects:
   - title: Jekyll Configurable Site
-    link: /repo
+    link: https://github.com/DDuarte/JSONConfigurablePersonalSite
