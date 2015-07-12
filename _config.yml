@@ -29,3 +29,5 @@ icons:
 projects:
   - name: Jekyll Configurable Site
     link: https://github.com/DDuarte/JekyllConfigurablePersonalSite
+  - name: JSON Configurable Site
+    link: https://github.com/christophior/JSONConfigurablePersonalSite
