@@ -37,13 +37,13 @@
             </header>
             <ul class="icons">
                 {% for icon in site.icons %}
-                    <li><a href="{{ icon.link }}" class="icon icon-{{ icon.icon }}"></a></li>
+                    <li><a href="{{ icon.link }}" title="{{ icon.title }}"class="icon icon-{{ icon.icon }}"></a></li>
                 {% endfor %}
             </ul>
             <hr />
             <ul class="links">
                 {% for project in site.projects %}
-                    <li><a href="{{ project.link }}">{{ project.title }}</a></li>
+                    <li><a href="{{ project.link }}" title="{{ project.title }}">{{ project.name }}</a></li>
                 {% endfor %}
             </ul>
         </div>

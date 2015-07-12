@@ -35,12 +35,13 @@ In **_config.yml** there is a section called **icons** that looks like the follo
 icons:
   - icon: page
     link: resume.html
+    title: Resume
   - icon: social-twitter
     link: https://twitter.com/OhMyCorgi
   - icon: paw
     link: http://lmgtfy.com/?q=corgi
 ```
-In the code above we are specifying the icons that link to sites such as your Github, LinkedIn, Twitter, etc. along with an icon that will be used for the respective link. Each entry in the icons array requires an icon value and a link value.
+In the code above we are specifying the icons that link to sites such as your Github, LinkedIn, Twitter, etc. along with an icon that will be used for the respective link. Each entry in the icons array requires an icon value and a link value. Optionally, you can provide a title for the link.
 
 Icons and icon names are consistent with the [Foundation Icon Font](http://zurb.com/playground/foundation-icon-fonts-3#allicons) which can be found here: **[Foundation Icons](http://zurb.com/playground/foundation-icon-fonts-3#allicons)**. 
 
@@ -50,12 +51,12 @@ Links for our icons can either be relative links or absolute links.
 Projects are similar to icons except that they have different attributes, the following is an example of projects:
 ```yml
 projects:
-  - title: Jekyll Configurable Site
+  - name: Jekyll Configurable Site
     link: https://github.com/DDuarte/JSONConfigurablePersonalSite
 ```
-Projects require a title and a link. 
+Projects require a name and a link. Optionally, you can provide a title for the link.
 
-Project titles are what will be shown on your website. Links just like icons can be either relative or absolute.
+Project names are what will be shown on your website. Links just like icons can be either relative or absolute.
 
 
 ### links
@@ -96,4 +97,4 @@ Have an idea to make this app better? Fork this repo and play around with it, ma
 
 
 This project is based on [JSONConfigurablePersonalSite](https://github.com/christophior/JSONConfigurablePersonalSite "JSONConfigurablePersonalSite") written by [@christophior](https://github.com/christophior "Chris Villarreal") which has been adapted to Jekyll.
-The original project uses Node.js, Dust.js and .json files to configure it.
+The original project uses Node.js, Dust.js and .json files for configuration.

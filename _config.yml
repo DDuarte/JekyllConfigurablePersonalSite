@@ -11,17 +11,21 @@ description: Hey I'm a Corgi. Thanks for visiting my personal site!
 resumeFile: https://dl.dropboxusercontent.com/u/3848960/corgi.pdf
 
 icons:
-  - icon: page
+  - icon: page-pdf
     link: resume.html
+    title: Resume
   - icon: social-github
     link: http://www.github.com/DDuarte
+    title: Github
   - icon: social-twitter
     link: https://twitter.com/OhMyCorgi
+    title: Twitter
   - icon: paw
     link: http://lmgtfy.com/?q=corgi
   - icon: social-reddit
     link: https://www.reddit.com/r/corgi
+    title: Reddit
 
 projects:
-  - title: Jekyll Configurable Site
+  - name: Jekyll Configurable Site
     link: https://github.com/DDuarte/JekyllConfigurablePersonalSite
