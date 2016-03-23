@@ -3,14 +3,23 @@ Jekyll Configurable Personal Site
 
 [![Build Status](https://travis-ci.org/DDuarte/JekyllConfigurablePersonalSite.svg?branch=gh-pages)](https://travis-ci.org/DDuarte/JekyllConfigurablePersonalSite)
 
+## Quick Start
+
+1. Fork this repository
+2. Edit `_config.yml` with your info
+3. Go to http://**your_username**.github.io/**repository_name**
+
+
 ## Running
+
 ```bash
 git clone https://github.com/DDuarte/JekyllConfigurablePersonalSite.git
-cd JSONConfigurablePersonalSite
+cd JekyllConfigurablePersonalSite
 bundle install
 bundle exec jekyll serve
 ```
 the application will be running on http://localhost:4000
+
 
 ## Requirements
 
@@ -21,15 +30,21 @@ This project has been made compatible with Github Pages as is. This means that y
 
 See [Github Pages](https://help.github.com/articles/using-jekyll-with-pages/ "Using Jekyll with Pages") and [Jekyll](http://jekyllrb.com/ "Jekyll • Simple, blog-aware, static sites") sites for more information.
 
+
 ## Configuring your own site
+
 To configure your own website after cloning this repo you will only need to work with one file:
 
+
 ### **_config.yml**
+
 This file will be where you will put what I would consider required information to make your personal site as 'complete' as possible. 
 
 Data stored in this file includes site title, site description, personal photograph (avatar), site background, description displayed on the home page, PDF link to your resume, list of shared links with icons, and list of projects along with the projects title.
 
+
 #### icons
+
 In **_config.yml** there is a section called **icons** that looks like the following:
 ```yml
 icons:
@@ -47,7 +62,9 @@ Icons and icon names are consistent with the [Foundation Icon Font](http://zurb.
 
 Links for our icons can either be relative links or absolute links.
 
+
 #### projects
+
 Projects are similar to icons except that they have different attributes, the following is an example of projects:
 ```yml
 projects:
